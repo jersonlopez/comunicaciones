@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+    <title>Comunicaciones I</title>
+    <style>
+        #mapa{
+            width: 800px;
+            max-width: 100%;
+            height:600px;
+            max-height:100vh;
+        }
+    </style>
+</head>
+<body>
+<div id="mapa">
+    <script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyC3B9rQjkjL-UzrGYE14Nihk8II1HQnf5Y&sensor=true"></script> 
+</div>
+<button type="button" name="Botero" onclick="moverMapa(0)">Plaza Botero</button>
+<button type="button" name="Arvi" onclick="moverMapa(1)">Parque Arví</button>
+<button type="button" name="Bolivar" onclick="moverMapa(2)">Parque Bolívar</button>
+
+<script type="text/javascript"   src="lugar.js"></script>
+</body>
+</html>
